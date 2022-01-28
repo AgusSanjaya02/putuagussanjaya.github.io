@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>objek wisata</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script>
+
+ // kotak geser
+ $(function(){
+                $("#pilihgeser").sortable();
+                $("#pilihgeser").disableSelection();
+
+                $("#dialogku").dialog({
+				autoOpen:false,
+					show:'blind',
+					hide:'explode'
+			});
+			$('#dibuka').click(function(){
+				$('#dialogku').dialog('open');
+				return false;
+			});
+      $('#dibuka1').click(function(){
+				$('#dialogku').dialog('open');
+				return false;
+			});
+      $( "#tabs" ).tabs();
+  
+            });
+            
+
+  </script>
+  <style>
+      
+    .h3{font-family: 'Style Script', cursive;}
+.display-4{font-family: 	Brush Script MT,Cursive;}
+.main-nav .navbar-nav a.nav-link {
+	color:  #fff;
+	font-weight: 600;
+}
+.main-nav .navbar-nav .nav-link.active, .main-nav .navbar-nav .nav-link:hover  {
+	color: rgb(0, 255, 0);
+}
+.main-nav .btn-success:hover{
+	background-color: rgb(0, 255,0) ;
+}
+.p{font-family: 'Style Script', cursive;}
+</style>
+
+
+</head>
+<header>
+    <nav  class="navbar  navbar-expand-lg navbar-dark main-nav" style="background-color: rgb(0, 162, 255) ;">
+      <div class="container py-2">
+          <a class="navbar-brand" href="">
+            <img src="./ab.png" alt="" width="50" height="50"class="d-inline-block align-text-top img-thumbnail">
+            <span class="p">Canggu Bali</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="HOME.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="objekwisata.html">Objek Wisata</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sarana.html">Sarana Akomodasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="wawasan.html">Wawasan</a>
+              </li>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" type="submit">Search</button>
+              </form>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">OBJEK WISATA CANGGU</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+     SELAMAT DATANG DI OBJEK WISATA CANGGU BALI
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">KELUAR</button>
+        <button type="button" class="btn btn-primary">SIMPAN</button>
+      </div>
+    </div>
+  </div>
+</div>
+         </ul>
+            
+          </div>
+        </div>
+        
+      </nav>
+</header>
+
+
+      <body>
+      <section >
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./canggu.jpg" class="d-block w-100 img-thumbnail" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+             <h5>Pantai Berawa</h5>
+              <h4>Ayo Berkunjung di Pantai Berawa , Bali  </h4>
+              <h4>Nikmati berbagai macam pemandangan yang indah dan Pasir yang kecoklatan</h4>
+              <button type="button"class="btn btn-success"id="dibuka">Jelajahi</button>
+              <button type="button"class="btn btn-warning">Video</button>
+          
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./dw2.jpg" class="d-block w-100 img-thumbnail" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Pantai Pererenan</h5>
+              <h4>Ayo Berkunjung ke Pantai Pererenan, Bali  </h4>
+              <h4>Nikmati berbagai macam pemandangan yang indah dan Pasir putih</h4>
+              <button type="button"class="btn btn-success"id="dibuka1">Jelajahi</button>
+              <button type="button"class="btn btn-warning">Video</button>
+            </div>
+
+          </div>
+          </div>
+        </div>
+        <div id="dialogku">
+          <h3>Video pantai berawa</h3>
+          <iframe width="786" height="442" src="https://www.youtube.com/embed/LkUIbwdTIus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+     
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+  
+         </section>
+
+
+        <BR>
+     
+      <div class="container">
+        <p  id="objekwisata" class="display-4" style="text-align:center; background-color: #F3F4F5;">Objek Wisata</p>
+         
+        <div class="row wawasan">
+            <div class="col-6">
+              <div class="tittle">
+                <h2 class="h1">Pantai Canggu</h2>
+
+              </div>
+                <p class="lead">Pantai Berawa di Canggu Bali ini terkenal mempunyai pemandangan matahari 
+                    terbenam yang tak kalah indahnya dengan di pantai lain. 
+                    Dengan suasana yang sepi, para traveler pun bisa menikmati 
+                    ketenangan dalam menikmati pemandangan indah matahari terbenam di sana. 
+                    Pantai ini pun memberikan suasana yang lebih privasi jika dibandingkan dengan pantai lain 
+                    yang ada di Canggu, seperti Legian ataupun Petitenget.</p>
+                    <p >
+                        Pantai Berawa ini terletak di Banjar Berawa di Desa Canggu, Bali. Lokasinya bersebelahan dengan beberapa pantai lain, 
+                        di antaranya adalah Pantai Canggu, Pantai Batu Belig serta Pantai Petitenget. 
+                       </p>
+                       <a href="" class="btn btn-sm btn-outline-primary">selengkapnya</a><br>
+                       <h3>Follow Me On The Website</h3>
+                       <a href="#" class="btn btn-primary">Facebook</a>
+                       <a href="#" class="btn btn-success">Twitter</a>
+                       <a href="#" class="btn btn-warning">Youtube</a>
+            </div>
+            <div class="col-6 wawasan-kanan">
+      
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              
+                <div style="margin-top: 10%;" class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./canggu.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                    <p style="text-align: center;">gambar pantai canggu</p>
+                  </div>
+  
+      
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <hr>
+
+                  <div class="row wawasan">
+            <div class="col-6">
+              <div class="tittle">
+               
+
+              </div>
+
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              
+                <div style="margin-top: 10%;" class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./dw2.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                    <p style="text-align: center;">gambar pantai pererenan</p>
+                  </div>
+                </div>
+              </div>
+               
+            </div>
+            <div class="col-6 wawasan-kanan">
+                <h2 class="h1">Pantai Pererenan</h2>
+                <p class="lead">pantai ini memiliki pasir putih kecoklatan yang indah dan 
+                    permukaan pantai yang landai dihiasi dengan karang-karang cantik di atas permukaannya. 
+                      Ciri khas dari Pantai Pererenan adalah adanya patung yang bernama Gajah Mina. </p>
+         <p >
+            Pantai terletak di Desa Pererenan, Kecamatan Mengwi, Kabupaten Badung, Bali.
+         </p>
+                       <a href="" class="btn btn-sm btn-outline-primary">selengkapnya</a><br>
+                       <h3>Follow Me On The Website</h3>
+                       <a href="#" class="btn btn-primary">Facebook</a>
+                       <a href="#" class="btn btn-success">Twitter</a>
+                       <a href="#" class="btn btn-warning">Youtube</a>
+           
+              </div>
+            </div>
+
+<br>
+     <br>
+        <nav aria-label="page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <span class="page-link">Previous</span>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page">
+                <span class="page-link">2</span>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+       
+      </div>
+      <hr >
+    
+    <!--Card-->
+       
+        <div class="container">
+            <p id="saranaakomodasi" class="display-4"  style="text-align:center; background-color: #F3F4F5;">Sarana Akomodasi</p>
+            <h1 class="h1" align="center">Hotel</h1>
+            <div class="card-group">
+        <div  class="card" style="width: 18rem;;">
+            <img src="./118051826.jpg" style="height: 90%;" class="card-img-top img-thumbnail" alt="..."> 
+        <div class="card-body">
+                <p class="card-text">Hotel Aston Canggu <br> Harga Mulai 547 ribu / Hari</p>
+                <div style="margin-bottom: 5%;">
+                  <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  </div>
+                <a href="#" class="btn btn-primary">Booking Now</a>
+
+        </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="./95089c1722c3cc15253988a65c33b5b7.jpg" style="height: 90%;" class="card-img-top img-thumbnail" alt="...">
+        <div class="card-body">
+                <p class="card-text">Hotel Sense Canggu <br> Harga Mulai 740 ribu / Hari</p>
+                <div style="margin-bottom: 5%;">
+                <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                </div>
+             
+                <a href="#" class="btn btn-primary">Booking Now</a>
+        </div>
+        </div>
+      
+        <div class="card" style="width: 18rem;">
+            <img src="./swimming-pool.jpg" style="height: 90%;" class="card-img-top img-thumbnail" alt="...">
+        <div class="card-body">
+                <p class="card-text">Hotel The Haven Suites <br> Harga Mulai 1.230 ribu / Hari</p>
+                <div style="margin-bottom: 5%;">
+                  <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg style="color: yellow;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                </div>
+                <a href="#" class="btn btn-primary">Booking Now</a>
+        </div>
+        </div>
+        </div>
+        </div>
+        <hr>
+<!-- end Card -->
+
+<!-- Progressbar -->
+
+<div class="container" style="background-color: #f3f4f5">
+
+    <p id="kunjungan" class="display-4" style="text-align:center; 
+    ">Kunjungan Wisatawan</p>
+      <div class="progress">
+        <label class="h6">Polandia : </label>
+        <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      </div>
+      <br>
+      <div class="progress">
+        <label class="h6">Jepang : </label>
+        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+      </div>
+      <br>
+      <div class="progress">
+        <label class="h6">Prancis :</label>
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+      </div>
+      <br>
+      <div class="progress">
+        <label class="h6">Cina :</label>
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">95%</div>
+      </div>
+      <br>
+      </div>
+<!-- End Progressbar -->
+<hr>
+<!--WAWASAN-->
+<section class="section-wawasan" id="wawasan">
+  <div class="container">
+      <h2 class="display-4" style="text-align:center; background-color: #F3F4F5;">Wawasan</h2>
+
+<br>
+  <div class="row wawasan">
+      <div class="col-6">
+        <div class="tittle">
+          <h2 class="display-4">Patung Pantai Pererenan</h2>
+          <hr>
+        </div>
+          <p>di daerah pantai pererenan ada patung yang memiliki tinggi 12 meter di atas bongkahan batu karang. 
+            Patung yang cantik ini memiliki nama Gajah Mina, 
+            patung ini berbentuk ikan berkepala gajah yang ditunggangi Dewa Baruna 
+            yang merupakan simbol penguasa lautan. 
+            Selain menjadi ikon dari Pantai Pererenan, 
+            patung ini juga merupakan ikon Desa Pererenan.</p>
+      </div>
+      <div class="col-6 wawasan-kanan">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        
+          <div style="margin-bottom: 5%;" class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./dw2.jpg" class="d-block w-100 img-thumbnail" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./Pantai-Pererenan.jpg" class="d-block w-100 img-thumbnail" alt="...">
+            </div>
+
+          </div>
+        </div>
+        </div>
+      </div>
+<hr>
+        <div class="row wawasan">
+          <div class="col-6">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+              <div style="margin-top: 5%;" class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./pohon-beringin-keramat-di-buleleng_20150815_155037.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./112709_pohlong1.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                </div>
+    
+              </div>
+            </div>
+          </div>     
+          <div style="margin-top: 2%;" class="col-6 wawasan">
+            <div class="tittle">
+              <h2 class="display-4">Pohon Beringin Berawa</h2>
+              <hr>
+            </div> 
+
+            <p>Pohon Beringin merupakan salah satu pohon yang memiliki nilai mistis 
+              di mata orang Bali. Kepercayaan terhadap pohon Beringin 
+              merupakan suatu implementasi dari aliran Animisme dan Dinamisme di daerah Bali.
+              Kata animisme berasal dari bahasa Latin “anima” yang berarti “roh”. 
+              Animisme adalah suatu kepercayaan terhadap makhluk halus dan roh, 
+              serta keyakinan seperti ini sudah banyak dianut oleh bangsa-bangsa 
+              yang belum bersentuhan ataupun belum pernah menerima ajaran 
+              yang berdasarkan daripada agama samawi (wahyu).</p>
+    
+            </div>
+        </div>
+    </div>
+        <hr>
+</section>
+
+
+
+
+<!-- Form -->
+<div class="container">
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#pendaftaran">Pendaftaran</a>
+    </li>
+  </ul>
+  </div>
+<div class="container" style="background-color: #F3F4F5; width: 100%;">
+   
+    <div id="pendaftaran">
+    <p class="display-4" style="text-align:center; background-color:#F3F4F5; ">Hubungi Kami</p>
+  <hr>
+  <a style="margin-left: 15%; " href="https://goo.gl/maps/s29b2n9VU7oLK7Hy8" style="color: cyan;" class="lead"><strong>Google Map Location</strong></a>
+<div class="row">
+<div style="margin-top: 4%;" class="col-md-6">
+  <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.257819400651!2d115.13740291431061!3d-8.667013193772473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd238853f602913%3A0x74f10244e28cb4b6!2sJl.%20Pantai%20Berawa%2C%20Tibubeneng%2C%20Kec.%20Kuta%20Utara%2C%20Kabupaten%20Badung%2C%20Bali!5e0!3m2!1sid!2sid!4v1642853657789!5m2!1sid!2sid" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<div class="col-md-6">
+  <form class="row g-3" style="background-color:#a2d9ff">
+  <div class="col-md-6">
+    <label for="namadepan" class="form-label">Nama Depan</label>
+    <input type="text" class="form-control" id="namadepan">
+    </div>
+    <div class="col-md-6">
+        <label for="namabelakang" class="form-label">Nama Belakang</label>
+       <input type="text" class="form-control" id="namabelakang">
+    </div>
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+    <div class="col-12">
+      <label for="telp" class="form-label">No Telp</label>
+      <input type="text" class="form-control" id="notelp" >
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">ALamat</label>
+      <input type="text" class="form-control" id="inputAddress2" >
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Kabupaten/Kota</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Desa</label>
+        <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>...</option>
+  </select>
+</div>
+<div class="col-md-2">
+<label for="inputZip" class="form-label">Zip</label>
+<input type="text" class="form-control" id="inputZip">
+</div>
+<div class="col-12">
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="gridCheck">
+  <label class="form-check-label" for="gridCheck">
+    Check me out
+  </label>
+</div>
+</div>
+<div style="margin-left: 45%; width: 150%;" class="col-6">
+  <button type="submit" class="btn btn-primary">Kirim</button>
+</div>
+</form>
+</div>
+
+  </div>
+  </div>
+</div>  
+   <!-- end form -->
+      
+  <br>
+
+  <!-- GALERY -->
+  <div  class="container" style="background-color:#f3f4f5;">
+    <p id="wawasan" class="display-4" style="text-align:center;">Gallery Wisatawan</p>
+    <hr>
+    <div class="row" id="pilihgeser">
+      <div class="col-md-3">
+        <figure>
+          <img style="width: auto;" src="./canggu.jpg" class="img-thumbnail">
+          <figcaption style="text-align: center;">Gambar Pantai Berawa</figcaption>
+        </figure>
+      </div>
+      <div  class="col-md-3">
+        <figure>
+          <img src="./dw2.jpg" class="img-thumbnail">
+          <figcaption style="text-align: center;">Gambar pantai Pererenan</figcaption>
+        </figure>
+      </div>
+      <div  class="col-md-3">
+
+        <figure>
+          <img src="./luna-maya-sepedaan-di-pantai-pererenan-ketemu-patung-dewa-12-meter-enggak-VaZOAG3QlT.jpg" class="img-thumbnail">
+          <figcaption style="text-align: center;">Gambar Bersepeda</figcaption>
+        </figure>
+      </div>
+      <div  class="col-md-3">
+        <figure>
+          <img src="./118051826.jpg" class="img-thumbnail">
+          <figcaption style="text-align: center;">Gambar Hotel Daerah Canggu</figcaption>
+        </figure>
+      </div>
+    </div>
+  
+  </div>
+  <!-- END GALERY-->    
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">tentang web objek wisata</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              dalam website objek wisata canggu menceritakan tentang daerah wisata canggu yaitu pantai berawa dan pantai pererenan dan daerah canggu
+              memiliki tempat penginapan-penginapan di daerah canggu.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+</form>
+</div>
+<br>
+</main>
+</body>
+
+
+<main>
+  <div style="margin-left: 35%;" >
+<!-- Button trigger modal -->
+
+</main>
+  
+
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#0099ff" fill-opacity="1.2" d="M0,224L80,197.3C160,171,320,117,480,128C640,139,800,213,960,229.3C1120,245,1280,203,1360,181.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+</svg>
+<footer class="text-white text-center" style="background-color:#0099ff; width: 100%;">
+<div class="container-fluid">
+<div class="row">
+<div style="margin-top: 5%;" class="col-md-4">
+<p>copyright @2021 Creative Web Design</p>
+</div><br>
+<div class="col-md-4">
+<ul style="text-align:center;" class="list-unstyled">
+<li ><a href="#"></a> Home</li>
+<li ><a href="#objekwisata"></a> Objek Wisata</li>
+<li ><a href="#sarana"></a> Sarana dan Akomodasi</li>
+
+<li ><a href="#wawasan"></a> Wawasan</li>
+</ul>
+</div>
+<div style="margin-top: 2%;" class="col-md-4">
+<h4>PT Web Desain Perkasa</h4>
+<p>Menjadikan masalah menjadi solusi</p>
+</div>
+</div>
+</div>
+</footer>
+
+
+    </main>
+    <footer>
+       <a style="color:blue; margin-left: 45%;" href="">www.canggubali.com</a>
+    </footer>
+
+
+<!--Bootstrap CSS CDN-->
+<link rel="stylesheet" href="./css/bootstrap.css">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<!--Bootstrap JS CDN -->
+<script src="./js/bootstrap.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/bootstrap.bundle.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+
+<!-- script jqueryui only -->
+
+
+
+
+</html>
